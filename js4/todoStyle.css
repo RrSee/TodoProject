@@ -1,0 +1,58 @@
+.container {
+    background-color: antiquewhite;
+    padding: 30px;
+    padding-top: 0px;
+    margin-top: 7%;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(104, 103, 103);
+}
+
+.heads input  {
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.heads button {
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: rgb(104, 103, 103);
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.todos {
+    display: flex;
+    flex-direction: column;
+}
+
+.todos div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(104, 103, 103);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.todos div .icons i  {
+    cursor: pointer;
+    color: antiquewhite;
+    padding-right: 7px;
+}
+
+.todos div p {
+    color: antiquewhite;
+    padding-left: 10px;
+}

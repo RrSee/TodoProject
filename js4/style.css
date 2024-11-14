@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(104, 103, 103);
+}
+
+.inputs input {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    border-radius: 3px;
+    padding: 5px;
+    border: 0px;
+    background-color: rgb(104, 103, 103);
+    color: white;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: rgb(104, 103, 103);
+    background-color: white;
+    transition: 0.3s;
+}
+
+.container {
+    margin-top: 10%;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 0px;
+}
